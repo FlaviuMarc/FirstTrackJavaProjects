@@ -9,6 +9,8 @@ public class Main {
         String roomColour = "alb";
         byte pat = 1;
         float haine = 220.4f;
+        float luminozitate = 1300.58f;
+
 
 
 	// write your code here
