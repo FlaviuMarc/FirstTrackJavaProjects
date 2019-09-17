@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello Flaviu Marc");
+        System.out.println("Hello World");
         //Dormitor
         byte walls = 4;
         byte dors = 2;
