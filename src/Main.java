@@ -29,7 +29,7 @@ public class Main {
 
         //Exercitiu 3
         System.out.println("\nExercitiu 3:");
-        System.out.println("Luminozitate + haine = " + luminozitate / haine);
+        System.out.println("Luminozitate / haine = " + luminozitate / haine);
 
         //Exercitiu 4
         System.out.println("\nExercitiul 4");
