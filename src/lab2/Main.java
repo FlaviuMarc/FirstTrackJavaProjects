@@ -98,7 +98,7 @@ public static float distance (float in){
 }
 public static void speed (float distance,int hours, int minutes, int seconds){
         int totalTimeSeconds = hours*3600 + minutes*60 + seconds;
-    System.out.println("Speed in m/s : " + distance / totalTimeSeconds);
+    System.out.println("Ex 9: \nSpeed in m/s : " + distance / totalTimeSeconds);
     System.out.println("Speed in km/h : " + (distance / 1000)/(totalTimeSeconds / 3600));
     System.out.println("Speed in mi/h : " + (distance / 1609.344)/(totalTimeSeconds / 3600));
 }
