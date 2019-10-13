@@ -1,12 +1,26 @@
 package lab2.AnimalRescue;
 
 public class Cat {
-    String color = "White";
-    String breed = "Burmese";
-    float weight = 3.4f;
-    float age = 5.2f;
-    float gender = 'f';
-    String name = "Miti";
+    private String color = "White";
+    private String breed = "Burmese";
+    private float weight = 3.4f;
+    private float age = 5.2f;
+    private float gender = 'f';
+    private String name = "Miti";
+    public void  setName (String newName)  {
+        this.name = newName;
+
+    }
+    public String getName(){
+        return name;
+    }
+    public void setColor(String newColor){
+        this.color = newColor;
+    }
+    public String getColor(){
+        return color;
+    }
+
 
     public void moew(){
         System.out.println("meow");
