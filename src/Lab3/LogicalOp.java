@@ -47,4 +47,31 @@ public class LogicalOp {
             return "The number is lower than 3";
         }
     }
+    public boolean isNumberEven (int x){
+        if(x%2==0 ){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    public boolean isEligibleToVote (int x){
+        if (x>18){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+    public int exercitiul11 (int x, int y, int z){
+        if (x>y && x>z){
+            return x;
+        }
+        else if (y>x && y>z){
+            return y;
+        }
+        else{
+            return z;
+        }
+    }
 }
