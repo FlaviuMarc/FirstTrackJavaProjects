@@ -74,4 +74,26 @@ public class LogicalOp {
             return z;
         }
     }
+    public void swichMetode (int x) {
+        switch (x) {
+            case 1:
+                System.out.println("The number is: 1!");
+                break;
+            case 2:
+                System.out.println("The number is: 2!");
+                break;
+            case 3:
+                System.out.println("The number is: 3!");
+                break;
+            case 4:
+                System.out.println("The number is: 4!");
+                break;
+            case 5:
+                System.out.println("The number is: 5!");
+                break;
+            default:
+                System.out.println(x);
+                break;
+        }
+    }
 }
