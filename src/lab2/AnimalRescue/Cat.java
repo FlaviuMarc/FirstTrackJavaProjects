@@ -5,7 +5,7 @@ public class Cat {
     private String breed = "Burmese";
     private float weight = 3.4f;
     private float age = 5.2f;
-    private float gender = 'f';
+    private char gender = 'f';
     private String name = "Miti";
     public void  setName (String newName)  {
         this.name = newName;
@@ -19,6 +19,31 @@ public class Cat {
     }
     public String getColor(){
         return color;
+    }
+    public void setBreed(String newBreed){
+        this.breed = newBreed;
+    }
+    public String getBreed(){
+        return breed;
+    }
+    public void setWeight(float newWeight){
+        this.weight = newWeight;
+    }
+
+    public float getWeight(){
+        return weight;
+    }
+    public void setAge (float newAge){
+        this.age = newAge;
+    }
+    public float getAge(){
+        return age;
+    }
+    public void setGender(char newGender){
+      this.gender = newGender;
+    }
+    public char getGender (){
+        return gender;
     }
 
 
