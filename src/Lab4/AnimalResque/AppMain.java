@@ -1,4 +1,7 @@
-package lab2.AnimalRescue;
+package Lab4.AnimalResque;
+
+import Lab4.AnimalResque.Dog;
+import lab2.AnimalRescue.Cat;
 
 public class AppMain {
     public static void main (String[] x){
