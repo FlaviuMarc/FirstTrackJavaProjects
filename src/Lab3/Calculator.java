@@ -29,4 +29,9 @@ public class Calculator {
         float modu = first % second;
         return modu;
     }
+    public int square(int x){
+        int y = x;
+        int nr =  (x * y);
+        return nr;
+    }
 }

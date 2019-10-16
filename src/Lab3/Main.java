@@ -42,6 +42,12 @@ public class Main {
            System.out.println("Exercitiul 11: ");
            System.out.println("The highest number is: " + Logic.exercitiul11(20, 9, 22));
 
+           System.out.println("Exercitiu extra 1: ");
+           Logic.switchButons(20);
+
+           System.out.println("Exercitiu extra 2:");
+           System.out.println(MyCalc.square(8));
+
         }
 
 
