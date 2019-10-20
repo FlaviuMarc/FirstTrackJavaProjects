@@ -32,9 +32,6 @@ public class LogicalOP {
         aa:
         for (int i = nr1; i <= nr2; i++) {
             System.out.println(i++);
-            bb:
-            for (int j = nr2; j <= nr1; i++) ;
-            break;
         }
 
         }
