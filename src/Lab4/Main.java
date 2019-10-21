@@ -24,6 +24,8 @@ public class Main {
         System.out.println("\n Java for loops ex 3: ");
         exercitiu.ex3(5,14);
 
-
+        System.out.println("");
+        System.out.println("\n Java for loops ex 4: ");
+        exercitiu.ex4(8, 2);
     }
 }
