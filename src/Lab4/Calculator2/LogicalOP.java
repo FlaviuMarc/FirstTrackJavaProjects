@@ -31,19 +31,19 @@ public class LogicalOP {
     public void ex3 (int nr1, int nr2) {
         aa:
         for (int i = nr1; i < nr2; i++) {
-            System.out.println(i);
+            System.out.print(" " + i + ",");
         }
         for (int i = nr2; i < nr1; i++)
-            System.out.println(i);
+            System.out.print(" " + i +",");
     }
 
     public void ex4 (int nr1, int nr2){
 
             for (int i = nr1; i < nr2; i++) {
-                System.out.println(i);
+                System.out.print(" " + i + ",");
             }
             for (int i = nr2; i < nr1; i++)
-                System.out.println(i);
+                System.out.print("" + i + ",");
         }
         public void ex5(){
 
