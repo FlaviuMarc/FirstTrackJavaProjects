@@ -45,8 +45,29 @@ public class LogicalOP {
             for (int i = nr2; i < nr1; i++)
                 System.out.println(i);
         }
-        public void ex5(int x, int y){
-        y=0;
-        for (int i = x%2=0; i = y ; )
+        public void ex5(){
+
+        for (int i = 0; i<=100; i++ ){
+            if (i%2==0){
+                System.out.print("" + i + ",");
+            }
         }
-}
+        }
+
+        public void ex6(){
+        for (int i=100; i>=0; i--){
+            if (i%2!=0){
+                System.out.print("" + i + ",");
+            }
+        }
+        }
+        public int ex7(int x){
+        int sumaTotala = 0;
+        for (int i = x; i < 100; i++ ){
+         sumaTotala = sumaTotala + i;
+
+            }
+        return sumaTotala;
+         }
+    }
+

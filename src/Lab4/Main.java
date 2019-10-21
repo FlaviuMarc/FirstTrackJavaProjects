@@ -27,5 +27,18 @@ public class Main {
         System.out.println("");
         System.out.println("\n Java for loops ex 4: ");
         exercitiu.ex4(8, 2);
+
+        System.out.print("");
+        System.out.print("\n Java for loops ex 5: ");
+        exercitiu.ex5();
+
+        System.out.println("");
+        System.out.println("\n Java for loops ex 6: ");
+        exercitiu.ex6();
+
+
+        System.out.println("");
+        System.out.print("\n Java for loops ex 7: ");
+        System.out.println(exercitiu.ex7(90));
     }
 }
