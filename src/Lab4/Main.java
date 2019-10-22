@@ -18,14 +18,14 @@ public class Main {
 
         System.out.println("");
         System.out.println("\n Java for loops ex 2: ");
-        exercitiu.ex2(80);
+        exercitiu.ex2(50);
 
         System.out.println("");
         System.out.println("\n Java for loops ex 3: ");
         exercitiu.ex3(5,14);
 
         System.out.println("");
-        System.out.println("\n Java for loops ex 4: ");
+        System.out.print("\n Java for loops ex 4: ");
         exercitiu.ex4(8, 2);
 
         System.out.print("");
@@ -39,6 +39,16 @@ public class Main {
 
         System.out.println("");
         System.out.print("\n Java for loops ex 7: ");
-        System.out.println(exercitiu.ex7(90));
+        System.out.println(exercitiu.ex7(22));
+
+
+        System.out.println("");
+        System.out.println("\n Java for loops ex 8: ");
+        System.out.println(exercitiu.ex8(30));
+
+
+        System.out.println("");
+        System.out.println("\n Java for loops ex 9: ");
+        exercitiu.ex9();
     }
 }

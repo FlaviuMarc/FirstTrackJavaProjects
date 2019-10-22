@@ -69,5 +69,23 @@ public class LogicalOP {
             }
         return sumaTotala;
          }
+
+         public int ex8(int x){
+        int sumaTotala = 0;
+        for (int i = x; i < 100; i++){
+            sumaTotala = sumaTotala + i;
+
+        }
+        return sumaTotala / (100 - x + 1);
+         }
+
+         public void ex9(){
+        for (int i = 7; i > 0; i--){
+            System.out.print("\n");
+        for (int j = 0; j < i; j++){
+            System.out.print("*");
+        }
+        }
+         }
     }
 
