@@ -87,5 +87,50 @@ public class LogicalOP {
         }
         }
          }
+
+         public void exw1(int x){
+
+        do{
+            System.out.print(x +" " );
+            x++;
+        }
+        while (x <= 100);
+             }
+
+        public void exw2 (int x){
+        do{
+            System.out.print(x + " ");
+            x--;
+        }
+        while (x >= -100);
+        }
+
+        public void exw3 (int x, int y){
+        do{
+            System.out.print(x + " ");
+            x++;
+        }
+        while (x < y);
+        do{
+            System.out.print(y + " ");
+            y++;
+        }
+        while (y < x);
+        }
+
+        public void exw4 (int x, int y){
+        do {
+                System.out.print(x + " ");
+                x++;
+        }
+        while (x < 1);
+        do{
+                System.out.print(y + " ");
+                y++;
+        }
+        while (y < x);
+        }
+
+
     }
 

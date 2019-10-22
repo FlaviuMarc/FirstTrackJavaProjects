@@ -18,7 +18,7 @@ public class Main {
 
         System.out.println("");
         System.out.println("\n Java for loops ex 2: ");
-        exercitiu.ex2(50);
+        exercitiu.ex2(20);
 
         System.out.println("");
         System.out.println("\n Java for loops ex 3: ");
@@ -50,5 +50,21 @@ public class Main {
         System.out.println("");
         System.out.println("\n Java for loops ex 9: ");
         exercitiu.ex9();
+
+
+        System.out.println("\n \n Exercitiile Java While Loop \n");
+
+        System.out.println("Java While Loop ex1: ");
+        exercitiu.exw1(90);
+
+        System.out.println("\n \nJava While Loop ex2: ");
+        exercitiu.exw2(-80);
+
+        System.out.println("\n \nJava While Loop ex3: ");
+        exercitiu.exw3(5,10);
+
+        System.out.println("\n \nJava While Loop ex4: ");
+        exercitiu.exw4(8, 5);
+
     }
 }
