@@ -64,7 +64,25 @@ public class Main {
         exercitiu.exw3(5,10);
 
         System.out.println("\n \nJava While Loop ex4: ");
-        exercitiu.exw4(8, 5);
+        exercitiu.exw4(5, 10);
+
+        System.out.println("\n \nJava While Loop ex5: ");
+        exercitiu.exw5();
+
+        System.out.println("\n \nJava While Loop ex6: ");
+        exercitiu.exw6();
+
+        System.out.println("\n \nJava While Loop ex7: ");
+        exercitiu.exw7();
+
+        System.out.println("\n \nJava While Loop ex8: \nam avut nevoie de ajutor pentru rezolvarea acestui exercitiu.");
+        System.out.println(exercitiu.exw8(1,30));
+
+        System.out.println("\n \nJava While Loop ex9: ");
+        exercitiu.exw9();
+
+        System.out.println("\n \nJava While Loop ex10: ");
+        exercitiu.exw10();
 
     }
 }
