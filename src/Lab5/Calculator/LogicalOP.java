@@ -69,4 +69,5 @@ public int ex6(int[] myArray, int x){
     }
   return 0;
 }
+
 }
