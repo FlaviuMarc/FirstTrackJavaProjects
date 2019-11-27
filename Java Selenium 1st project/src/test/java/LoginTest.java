@@ -26,7 +26,7 @@ public class LoginTest {
 
 
     }
-public void closeDriver(){
+    public void closeDriver(){
         driver.quit();
-}
+    }
 }
