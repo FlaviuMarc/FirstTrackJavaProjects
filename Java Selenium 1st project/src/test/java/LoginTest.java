@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +11,7 @@ public class LoginTest {
     private WebDriver driver;
     @Before
     public void initDriver() {
-        System.setProperty("webdriver.crome.driver", "resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
     }
         @Test
@@ -26,6 +27,7 @@ public class LoginTest {
 
 
     }
+    @After
     public void closeDriver(){
         driver.quit();
     }
